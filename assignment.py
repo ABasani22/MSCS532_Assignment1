@@ -4,6 +4,7 @@ def insertion_sort_descending(arr):
     using the Insertion Sort algorithm.
     """
     for i in range(1, len(arr)):
+        
         key = arr[i]
         j = i - 1
 
