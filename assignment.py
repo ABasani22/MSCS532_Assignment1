@@ -6,6 +6,8 @@ def insertion_sort_descending(arr):
     for i in range(1, len(arr)):
         
         key = arr[i]
+
+        
         j = i - 1
 
         # Move elements that are smaller than key
